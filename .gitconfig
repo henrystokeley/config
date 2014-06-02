@@ -1,3 +1,5 @@
 [user]
 	name = Henry Stokeley
 	email = hstokeley@gmail.com
+[merge]
+	tool = vimdiff
