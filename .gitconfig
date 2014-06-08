@@ -3,3 +3,5 @@
 	email = hstokeley@gmail.com
 [merge]
 	tool = vimdiff
+[alias]
+	co = checkout
