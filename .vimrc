@@ -1,3 +1,7 @@
+"pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 syntax on
@@ -19,8 +23,6 @@ map =p :set paste:r !pbpaste :set nopaste
 
 set nu
 set shiftwidth=4 softtabstop=4 expandtab
-
-execute pathogen#infect()
 
 nmap _o :set paste!<CR>
 nmap j gj
