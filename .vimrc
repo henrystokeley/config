@@ -1,6 +1,7 @@
 "pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+execute pathogen#helptags()
 
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
@@ -39,3 +40,7 @@ set statusline+=%*
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"jedi-vim
+let g:jedi#force_py_version = 3
+let g:jedi#completions_command = "<C-N>"
