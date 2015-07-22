@@ -1,3 +1,7 @@
+"pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
+
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 syntax on
@@ -20,10 +24,18 @@ map =p :set paste:r !pbpaste :set nopaste
 set nu
 set shiftwidth=4 softtabstop=4 expandtab
 
-execute pathogen#infect()
-
 nmap _o :set paste!<CR>
 nmap j gj
 nmap k gk
 
 set t_Co=256
+
+"syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
