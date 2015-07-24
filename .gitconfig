@@ -5,3 +5,4 @@
 	tool = vimdiff
 [alias]
 	co = checkout
+	br = branch
