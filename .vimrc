@@ -29,7 +29,7 @@ let g:netrw_browsex_viewer= "open"
 
 "mac - copying/pasting
 map =c :w !pbcopy<Enter>
-map =p :set paste:r !pbpaste :set nopaste
+map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
 
 nmap j gj
 nmap k gk
