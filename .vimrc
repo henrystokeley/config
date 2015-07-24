@@ -21,7 +21,7 @@ set ignorecase smartcase
 set listchars=tab:>-,trail:-
 set ruler
 set backspace=2
-set autochdir
+set laststatus=2
 
 let g:netrw_browsex_viewer= "open"
 
