@@ -25,6 +25,8 @@ set autochdir
 
 let g:netrw_browsex_viewer= "open"
 
+:au BufWritePost *.coffee make
+
 "mac - copying/pasting
 map =c :w !pbcopy<Enter>
 map =p :set paste:r !pbpaste :set nopaste
@@ -44,4 +46,7 @@ let g:syntastic_check_on_wq = 0
 let g:jedi#force_py_version = 3
 let g:jedi#completions_command = "<C-N>"
 
-:au BufWritePost *.coffee make
+"vim-fugitive
+" -----------------
+autocmd BufReadPost fugitive://* set bufhidden=delete
+set statusline+=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
