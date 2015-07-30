@@ -1,4 +1,4 @@
-"pathogen
+" pathogen
 " -----------------
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
@@ -34,14 +34,14 @@ map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
 nmap j gj
 nmap k gk
 
-"syntastic
+" syntastic
 " -----------------
 "let g:syntastic_always_populate_loc_list = 1
 "let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-"jedi-vim
+" jedi-vim
 " -----------------
 let g:jedi#force_py_version = 3
 let g:jedi#completions_command = "<C-N>"
