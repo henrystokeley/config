@@ -25,14 +25,17 @@ set laststatus=2
 
 let g:netrw_browsex_viewer= "open"
 
-:au BufWritePost *.coffee make
-
 "mac - copying/pasting
 map =c :w !pbcopy<Enter>
 map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
 
 nmap j gj
 nmap k gk
+
+" coffeescript
+" -----------------
+au BufWritePost *.coffee make
+autocmd QuickFixCmdPost * nested cwindow | redraw!
 
 " syntastic
 " -----------------
