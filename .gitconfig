@@ -1,8 +1,9 @@
 [user]
-	name = Henry Stokeley
-	email = hstokeley@gmail.com
+    name = Henry Stokeley
+    email = hstokeley@gmail.com
 [merge]
-	tool = vimdiff
+    tool = vimdiff
 [alias]
-	co = checkout
-	br = branch
+    co = checkout
+    br = branch
+    st =  status
