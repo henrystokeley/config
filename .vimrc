@@ -54,6 +54,10 @@ let g:jedi#completions_command = "<C-N>"
 autocmd BufReadPost fugitive://* set bufhidden=delete
 set statusline+=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
+" vim-airline
+" -----------------
+let g:airline#extensions#tabline#enabled = 1
+
 " vim-colors-solarized
 " -----------------
 set background=light " or dark
