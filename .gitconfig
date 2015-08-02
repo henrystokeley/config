@@ -3,6 +3,8 @@
     email = hstokeley@gmail.com
 [merge]
     tool = vimdiff
+[push]
+    default = simple
 [alias]
     co = checkout
     br = branch
