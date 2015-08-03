@@ -31,6 +31,10 @@ map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
 
 nmap j gj
 nmap k gk
+nmap <c-j> <c-w>j
+nmap <c-k> <c-w>k
+nmap <c-l> <c-w>l
+nmap <c-h> <c-w>h
 
 " coffeescript
 " -----------------
