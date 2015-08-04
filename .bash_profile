@@ -7,8 +7,6 @@ source ~/.git-completion.bash
 if [ -f $(brew --prefix)/share/bash-completion/bash_completion ]; then
       . $(brew --prefix)/share/bash-completion/bash_completion
 fi
-#python startup file
-export PYTHONSTARTUP=~/.pystartup
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
