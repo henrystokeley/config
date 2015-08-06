@@ -52,6 +52,7 @@ let g:syntastic_check_on_wq = 0
 " -----------------
 let g:jedi#force_py_version = 3
 let g:jedi#completions_command = "<C-N>"
+autocmd BufReadCmd '*doc*' set bufhidden=delete
 
 "vim-fugitive
 " -----------------
