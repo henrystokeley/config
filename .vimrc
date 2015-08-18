@@ -19,6 +19,7 @@ set incsearch
 set ignorecase smartcase
 
 set listchars=tab:>-,trail:-
+set list
 set ruler
 set backspace=2
 set laststatus=2
