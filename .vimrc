@@ -31,7 +31,9 @@ map =c :w !pbcopy<Enter>
 map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
 
 nmap j gj
+vmap j gj
 nmap k gk
+vmap k gk
 nmap <c-j> <c-w>j
 nmap <c-k> <c-w>k
 nmap <c-l> <c-w>l
