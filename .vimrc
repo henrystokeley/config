@@ -26,10 +26,6 @@ set laststatus=2
 
 let g:netrw_browsex_viewer= "open"
 
-"mac - copying/pasting
-map =c :w !pbcopy<Enter>
-map =p :set paste<Enter>:r !pbpaste<Enter>:set nopaste<Enter>
-
 nmap j gj
 vmap j gj
 nmap k gk
