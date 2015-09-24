@@ -31,10 +31,7 @@ nmap j gj
 vmap j gj
 nmap k gk
 vmap k gk
-nmap <c-j> <c-w>j
-nmap <c-k> <c-w>k
-nmap <c-l> <c-w>l
-nmap <c-h> <c-w>h
+nnoremap <C-L> :nohlsearch<CR><C-L>
 
 let mapleader=","
 
