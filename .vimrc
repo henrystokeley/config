@@ -24,6 +24,7 @@ set list
 set ruler
 set backspace=2
 set laststatus=2
+set wildmenu
 
 let g:netrw_browsex_viewer= "open"
 
