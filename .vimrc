@@ -17,6 +17,7 @@ set t_Co=256
 set hlsearch
 set incsearch
 set ignorecase smartcase
+set history=100
 
 set listchars=tab:>-,trail:-
 set list
