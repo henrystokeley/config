@@ -12,6 +12,7 @@ syntax on
 
 set nu
 set shiftwidth=4 softtabstop=4 expandtab
+set autoindent
 set t_Co=256
 
 set hlsearch
