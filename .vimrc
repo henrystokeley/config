@@ -60,6 +60,7 @@ autocmd BufReadCmd '*doc*' set bufhidden=delete
 "vim-fugitive
 " -----------------
 autocmd BufReadPost fugitive://* set bufhidden=delete
+autocmd QuickFixCmdPost *grep* cwindow
 
 " vim-airline
 " -----------------
