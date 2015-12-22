@@ -37,6 +37,8 @@ nnoremap <C-L> :nohlsearch<CR><C-L>
 
 let mapleader=","
 
+runtime! macros/matchit.vim
+
 " coffeescript
 " -----------------
 au BufWritePost *.coffee make
