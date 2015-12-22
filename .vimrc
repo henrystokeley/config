@@ -22,7 +22,7 @@ set history=100
 set listchars=tab:>-,trail:-
 set list
 set ruler
-set backspace=2
+set backspace=indent,eol,start
 set laststatus=2
 set wildmenu
 
