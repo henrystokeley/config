@@ -20,6 +20,7 @@ set incsearch
 set ignorecase smartcase
 set history=100
 
+set spelllang=en_gb,cjk
 set listchars=tab:>-,trail:-
 set list
 set ruler
