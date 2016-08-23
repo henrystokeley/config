@@ -27,6 +27,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set wildmenu
+set hidden
 
 let g:netrw_browsex_viewer= "open"
 
