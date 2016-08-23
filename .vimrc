@@ -73,3 +73,7 @@ let g:airline#extensions#tabline#enabled = 1
 " -----------------
 set background=light " or dark
 colorscheme solarized
+
+" gundo
+" -----------------
+let g:gundo_prefer_python3 = 1
