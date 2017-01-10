@@ -16,3 +16,6 @@ export PATH=/usr/local/bin:$PATH
 #enable colours for grep/ls
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1
+
+# Replace vi with vim
+alias vi='vim'
