@@ -1,0 +1,4 @@
+--ignore-dir=is:.tox
+--ignore-dir=is:.cache
+--ignore-dir=is:.ipynb_checkpoints
+--ignore-file=is:tags
