@@ -4,7 +4,7 @@
 [merge]
     tool = vimdiff
 [push]
-    default = simple
+    default = current
 [alias]
     co = checkout
     cob = checkout -b
